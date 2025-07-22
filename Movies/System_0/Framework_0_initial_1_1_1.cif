@@ -1,0 +1,52 @@
+data_Al-Fum
+
+_audit_creation_method RASPA-1.0
+_audit_creation_date 2025-7-10
+_audit_author_name ''
+
+_citation_id                 1
+_citation_year               10.1002/anie.201410459
+
+_cell_length_a    6.8419
+_cell_length_b    12.0877
+_cell_length_c    14.207
+_cell_angle_alpha 90
+_cell_angle_beta  122.547
+_cell_angle_gamma 90
+_cell_volume      63387.7
+
+_symmetry_cell_setting          monoclinic
+_symmetry_space_group_name_Hall '-P 2ybc'
+_symmetry_space_group_name_H-M  'P 1 21/c 1'
+_symmetry_Int_Tables_number     14
+
+loop_
+_symmetry_equiv_pos_as_xyz
+ 'x,y,z'
+ '-x,y+1/2,-z+1/2'
+ '-x,-y,-z'
+ 'x,-y+1/2,z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_charge
+Al1      Al     0.500000000000     0.500000000000     0.000000000000     5.5836
+Al2      Al     0.000000000000     0.500000000000     0.000000000000     4.8817
+O1       O      0.180120000000     0.517310000000     0.940150000000    -2.20314
+O2       O      0.247050000000     0.400150000000     0.115910000000    -1.11636
+O3       O      0.538440000000     0.368770000000     0.084380000000    -1.26435
+O4       O      0.450600000000     0.093300000000     0.379670000000    -1.47659
+O5       O      0.782760000000     0.113340000000     0.399420000000    -1.33051
+C1       C      0.429770000000     0.346990000000     0.133820000000     0.754437
+C2       C      0.554440000000     0.264960000000     0.222030000000    -0.130423
+C3       C      0.455780000000     0.227920000000     0.273810000000    -0.351208
+C4       C      0.578690000000     0.140990000000     0.360400000000     1.19952
+H2       H      0.729680000000     0.232170000000     0.243060000000     0.0372806
+H3       H      0.277720000000     0.257870000000     0.251620000000     0.0918187
+H1       H      0.077050000000     0.474420000000     0.869340000000     0.337431
+
+

@@ -1,0 +1,115 @@
+# critical constants: Temperature [T], Pressure [Pa], and Acentric factor [-]
+552.2
+2593920.0
+0.326
+# Number Of Atoms
+11
+# Number Of Groups
+1
+# Alkane-group
+flexible
+# number of atoms
+11
+# atomic positions
+0	CF3
+1	CF2
+2	CF2
+3	CF2
+4	CF2
+5	CF2
+6	CF21
+7	Co
+8	Oc
+9	Oh
+10	Ho
+# Chiral centers  Bond  BondDipoles  Bend  UrayBradley  InvBend  Torsion    Imp. Torsion  Bond/Bond Stretch/Bend Bend/Bend Stretch/Torsion Bend/Torsion  IntraVDW    IntraCoulomb
+               0    10            0    10            0       0       10               0         0            0         0               0            0         26             26
+# Bond stretch: atom n1-n2, type, parameters
+0	1	HARMONIC_BOND 96500 1.54
+1	2	HARMONIC_BOND 96500 1.54
+2	3	HARMONIC_BOND 96500 1.54
+3	4	HARMONIC_BOND 96500 1.54
+4	5	HARMONIC_BOND 96500 1.54
+5	6	HARMONIC_BOND 96500 1.54
+6	7	HARMONIC_BOND 96500 1.54
+7	8	HARMONIC_BOND 573667	1.214
+7	9	HARMONIC_BOND 452895	1.364
+9	10	HARMONIC_BOND 556557.6  0.97
+# Bond bending: atom n1-n2-n3, type, parameters
+0	1	2	HARMONIC_BEND	62500	114.00
+1	2	3	HARMONIC_BEND	62500	114.00
+2	3	4	HARMONIC_BEND	62500	114.00
+3	4	5	HARMONIC_BEND	62500	114.00
+4	5	6	HARMONIC_BEND	62500	114.00
+5	6	7	HARMONIC_BEND	62500	114.00
+6	7	8	HARMONIC_BEND	40300	126.0
+6	7	9	HARMONIC_BEND	35300	111.0
+8	7	9	HARMONIC_BEND	40300	123.0
+7	9	10	HARMONIC_BEND	17600	107.0
+# Torsion n1-n2-n3-n4 type
+0	1	2	3	FOURIER_SERIES_DIHEDRAL	3332.5	495.2	-698.52	-1065.88	0.0	0.0
+1	2	3	4	FOURIER_SERIES_DIHEDRAL	3332.5	495.2	-698.52	-1065.88	0.0	0.0
+2	3	4	5	FOURIER_SERIES_DIHEDRAL	3332.5	495.2	-698.52	-1065.88	0.0	0.0
+3	4	5	6	FOURIER_SERIES_DIHEDRAL	3332.5	495.2	-698.52	-1065.88	0.0	0.0
+4	5	6	7	FOURIER_SERIES_DIHEDRAL	3332.5	495.2	-698.52	-1065.88	0.0	0.0
+5	6	7	8	TRAPPE_DIHEDRAL	2035.58	-736.90	57.84	-293.23
+5	6	7	9	TRAPPE_DIHEDRAL	0.00	176.62	-53.34	769.93
+6	7	9	10	TRAPPE_DIHEDRAL	0.0	630.0	1562.4	0.0
+8	7	9	10	TRAPPE_DIHEDRAL	0.0	0.0	1562.4	0.0
+8	7	9	10	CFF_DIHEDRAL	630.0	0.0	0.0
+# Intra VDW: atom n1-n2
+0	4
+0	5
+0	6
+0	7
+0	8
+0	9
+0	10
+1	5
+1	6
+1	7
+1	8
+1	9
+1	10
+2	6
+2	7
+2	8
+2	9
+2	10
+3	7
+3	8
+3	9
+3	10
+4	10
+4	8
+4	9
+5	10
+# Intra Coulob: atom n1-n2
+0	4
+0	5
+0	6
+0	7
+0	8
+0	9
+0	10
+1	5
+1	6
+1	7
+1	8
+1	9
+1	10
+2	6
+2	7
+2	8
+2	9
+2	10
+3	7
+3	8
+3	9
+3	10
+4	10
+4	8
+4	9
+5	10
+# Number of config moves
+0

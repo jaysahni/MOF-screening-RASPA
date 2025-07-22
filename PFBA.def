@@ -1,0 +1,55 @@
+# critical constants: Temperature [T], Pressure [Pa], and Acentric factor [-]
+552.2
+2593920.0
+0.85
+# Number Of Atoms
+7
+# Number Of Groups
+1
+# Alkane-group
+flexible
+# number of atoms
+7
+# atomic positions
+0	CF3
+1	CF2
+2	CF21
+3	Co
+4	Oc
+5	Oh
+6	Ho
+# Chiral centers  Bond  BondDipoles  Bend  UrayBradley  InvBend  Torsion    Imp. Torsion  Bond/Bond Stretch/Bend Bend/Bend Stretch/Torsion Bend/Torsion  IntraVDW    IntraCoulomb
+               0    6            0    6            0       0       10               0         0            0         0               0            0         26             26
+# Bond stretch: atom n1-n2, type, parameters
+0	1	HARMONIC_BOND 96500 1.54
+1	2	HARMONIC_BOND 96500 1.54
+2	3	HARMONIC_BOND 96500 1.54
+3	4	HARMONIC_BOND 573667	1.214
+3	5	HARMONIC_BOND 452895	1.364
+5	6	HARMONIC_BOND 556557.6  0.97
+# Bond bending: atom n1-n2-n3, type, parameters
+0	1	2	HARMONIC_BEND	62500	114.00
+1	2	3	HARMONIC_BEND	62500	114.00
+2	3	4	HARMONIC_BEND	40300	126.0
+2	3	5	HARMONIC_BEND	35300	111.0
+4	3	5	HARMONIC_BEND	40300	123.0
+3	5	6	HARMONIC_BEND	17600	107.0
+# Torsion n1-n2-n3-n4 type
+0	1	2	3	FOURIER_SERIES_DIHEDRAL	3332.5	495.2	-698.52	-1065.88	0.0	0.0
+1	2	3	4	TRAPPE_DIHEDRAL	2035.58	-736.90	57.84	-293.23
+1	2	3	5	TRAPPE_DIHEDRAL	0.00	176.62	-53.34	769.93
+2	3	5	6	TRAPPE_DIHEDRAL	0.0	630.0	1562.4	0.0
+4	3	5	6	TRAPPE_DIHEDRAL	0.0	0.0	1562.4	0.0
+4	3	5	6	CFF_DIHEDRAL	630.0	0.0	0.0
+# Intra VDW: atom n1-n2
+0	6
+0	4
+0	5
+1	6
+# Intra Coulob: atom n1-n2
+0	6
+0	4
+0	5
+1	6
+# Number of config moves
+0
